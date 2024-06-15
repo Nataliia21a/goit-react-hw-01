@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  max-width: 1246px;
+  /* padding-inline: 15px; */
+  margin-inline: auto;
+  border: solid 2px black;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: lightgray;
+  height: auto;
+}
+
+.username {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.userTag,
+.userLocation {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: grey;
+}
+
+.statsList {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  border-top: solid 6px grey;
+  border-inline: solid 3px grey;
+  list-style: none;
+  width: 100%;
+  background-color: lightgrey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
