@@ -3,12 +3,14 @@ import css from "./FriendList.module.css";
 
 export default function Frendlist({ friends }) {
   return (
-    <ul>
-      {friends.map((friend) => (
-        <li key={friend.id}>
-          <FriendListItem friend={friend} />
-        </li>
-      ))}
-    </ul>
+    <div className={css.container}>
+      <ul className={css.friendList}>
+        {friends.map((friend) => (
+          <li key={friend.id}>
+            <FriendListItem friend={friend} />
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

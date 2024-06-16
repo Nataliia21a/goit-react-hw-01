@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  max-width: 1246px;
+  margin-inline: auto;
+}
+
+.friendList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 50px;
+}
